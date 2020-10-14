@@ -30,7 +30,9 @@ class ViewController: UIViewController {
     @IBAction func textButtonPressed() {
         redLightView.alpha = 1
         textButton.setTitle("NEXT", for: .normal)
+        
+        
+        
     }
     
 }
-

@@ -28,9 +28,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func textButtonPressed() {
-        if redLightView.alpha == 1 {
-            textButton.setTitle("NEXT", for: .normal)
-        }
+        redLightView.alpha = 1
+        textButton.setTitle("NEXT", for: .normal)
     }
     
 }
